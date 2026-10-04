@@ -1,0 +1,1 @@
+export default function Heading({eyebrow,title,text}){return <div style={{maxWidth:760,marginBottom:42}}><span className="eyebrow">{eyebrow}</span><h2 style={{font:'800 clamp(32px,4vw,48px)/1.1 Manrope',margin:'12px 0'}}>{title}</h2>{text&&<p className="subtitle">{text}</p>}</div>}

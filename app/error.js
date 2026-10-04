@@ -1,0 +1,1 @@
+'use client';export default function Error({reset}){return <div className="container" style={{padding:'130px 0',textAlign:'center'}}><span className="eyebrow">Error</span><h1 className="title">Something went wrong.</h1><button className="btn btn-primary" onClick={reset}>Try again</button></div>}

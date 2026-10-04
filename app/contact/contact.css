@@ -1,0 +1,840 @@
+.contact-page {
+overflow: hidden;
+}
+
+/* =========================
+HERO
+========================= */
+
+.contact-hero {
+position: relative;
+padding: 110px 0 90px;
+overflow: hidden;
+background:
+radial-gradient(
+circle at 15% 30%,
+rgba(37, 99, 235, 0.08),
+transparent 32%
+),
+radial-gradient(
+circle at 85% 20%,
+rgba(124, 58, 237, 0.08),
+transparent 30%
+),
+#f8fafc;
+}
+
+.contact-hero-content {
+position: relative;
+z-index: 2;
+max-width: 820px;
+}
+
+.contact-eyebrow {
+display: inline-flex;
+align-items: center;
+gap: 7px;
+}
+
+.contact-hero .title {
+max-width: 850px;
+margin-top: 18px;
+}
+
+.contact-hero .title span {
+color: var(--p, #2563eb);
+}
+
+.contact-hero .subtitle {
+max-width: 700px;
+margin-top: 20px;
+}
+
+.contact-hero-points {
+display: flex;
+flex-wrap: wrap;
+gap: 18px;
+margin-top: 28px;
+}
+
+.contact-hero-points span {
+display: inline-flex;
+align-items: center;
+gap: 7px;
+color: #667085;
+font-size: 13px;
+font-weight: 650;
+}
+
+.contact-hero-points svg {
+color: #2563eb;
+}
+
+.contact-hero-glow {
+position: absolute;
+border-radius: 50%;
+filter: blur(3px);
+pointer-events: none;
+}
+
+.contact-glow-one {
+width: 280px;
+height: 280px;
+top: -130px;
+right: 12%;
+background: rgba(37, 99, 235, 0.06);
+}
+
+.contact-glow-two {
+width: 220px;
+height: 220px;
+bottom: -130px;
+left: 15%;
+background: rgba(124, 58, 237, 0.06);
+}
+
+/* =========================
+MAIN
+========================= */
+
+.contact-main {
+padding-top: 80px;
+}
+
+.contact-grid {
+display: grid;
+grid-template-columns: 0.8fr 1.2fr;
+gap: 28px;
+align-items: start;
+}
+
+/* =========================
+SIDEBAR
+========================= */
+
+.contact-sidebar {
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+.contact-info-card {
+padding: 30px;
+border: 1px solid #e7eaf0;
+border-radius: 22px;
+background: #fff;
+box-shadow:
+0 15px 45px rgba(15, 23, 42, 0.06);
+}
+
+.contact-card-header {
+display: flex;
+align-items: center;
+gap: 13px;
+}
+
+.contact-icon-large {
+width: 48px;
+height: 48px;
+display: grid;
+place-items: center;
+flex-shrink: 0;
+color: #fff;
+border-radius: 14px;
+background: linear-gradient(
+135deg,
+#2563eb,
+#7c3aed
+);
+}
+
+.contact-small-label {
+display: block;
+margin-bottom: 4px;
+color: #98a2b3;
+font-size: 10px;
+font-weight: 800;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+.contact-card-header h2 {
+margin: 0;
+color: #101828;
+font-family: Manrope, sans-serif;
+font-size: 22px;
+}
+
+.contact-description {
+margin: 22px 0;
+color: #667085;
+font-size: 14px;
+line-height: 1.75;
+}
+
+.contact-info-list {
+display: flex;
+flex-direction: column;
+gap: 7px;
+}
+
+.contact-info-item {
+display: flex;
+align-items: center;
+gap: 12px;
+padding: 13px 10px;
+border-radius: 12px;
+color: #344054;
+text-decoration: none;
+transition:
+background 0.25s ease,
+transform 0.25s ease;
+}
+
+a.contact-info-item:hover {
+background: #f7f9fc;
+transform: translateX(3px);
+}
+
+.contact-info-icon {
+width: 38px;
+height: 38px;
+display: grid;
+place-items: center;
+flex-shrink: 0;
+color: #2563eb;
+border-radius: 10px;
+background: #eff5ff;
+}
+
+.whatsapp-icon {
+color: #168c45;
+background: #ecfdf3;
+}
+
+.contact-info-item > span:nth-child(2) {
+min-width: 0;
+flex: 1;
+}
+
+.contact-info-item small {
+display: block;
+margin-bottom: 3px;
+color: #98a2b3;
+font-size: 10px;
+font-weight: 650;
+}
+
+.contact-info-item strong {
+display: block;
+color: #344054;
+font-size: 13px;
+font-weight: 700;
+overflow-wrap: anywhere;
+}
+
+.contact-info-item > svg {
+flex-shrink: 0;
+color: #98a2b3;
+}
+
+/* =========================
+MINI CARDS
+========================= */
+
+.contact-mini-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 14px;
+}
+
+.contact-mini-card {
+display: flex;
+flex-direction: column;
+gap: 7px;
+padding: 20px;
+border: 1px solid #e7eaf0;
+border-radius: 17px;
+background: #fff;
+transition:
+transform 0.25s ease,
+box-shadow 0.25s ease;
+}
+
+.contact-mini-card:hover {
+transform: translateY(-3px);
+box-shadow:
+0 12px 30px rgba(15, 23, 42, 0.06);
+}
+
+.contact-mini-card svg {
+color: #2563eb;
+margin-bottom: 5px;
+}
+
+.contact-mini-card strong {
+color: #101828;
+font-size: 13px;
+}
+
+.contact-mini-card span {
+color: #667085;
+font-size: 11px;
+line-height: 1.5;
+}
+
+/* =========================
+FORM CARD
+========================= */
+
+.contact-form-card {
+padding: 34px;
+border: 1px solid #e5e7eb;
+border-radius: 24px;
+background: #fff;
+box-shadow:
+0 18px 55px rgba(15, 23, 42, 0.07);
+}
+
+.form-heading {
+margin-bottom: 26px;
+}
+
+.form-badge {
+display: inline-flex;
+padding: 6px 10px;
+margin-bottom: 11px;
+color: #2563eb;
+background: #eff5ff;
+border-radius: 999px;
+font-size: 10px;
+font-weight: 800;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+}
+
+.form-heading h2 {
+margin: 0 0 8px;
+color: #101828;
+font-family: Manrope, sans-serif;
+font-size: 26px;
+letter-spacing: -0.5px;
+}
+
+.form-heading p {
+margin: 0;
+color: #667085;
+font-size: 13px;
+line-height: 1.6;
+}
+
+/* =========================
+ALERT
+========================= */
+
+.contact-alert {
+display: flex;
+align-items: flex-start;
+gap: 10px;
+padding: 13px 15px;
+margin-bottom: 20px;
+border-radius: 12px;
+font-size: 13px;
+line-height: 1.5;
+}
+
+.alert-success {
+color: #087443;
+border: 1px solid #b7ebd0;
+background: #effcf5;
+}
+
+.alert-error {
+color: #b42318;
+border: 1px solid #fecdca;
+background: #fff5f4;
+}
+
+/* =========================
+FORM
+========================= */
+
+.contact-form {
+display: flex;
+flex-direction: column;
+gap: 19px;
+}
+
+.form-row {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 16px;
+}
+
+.field {
+display: flex;
+flex-direction: column;
+gap: 7px;
+}
+
+.field label {
+color: #344054;
+font-size: 12px;
+font-weight: 750;
+}
+
+.field label span {
+color: #e04444;
+}
+
+.field input,
+.field select,
+.field textarea {
+width: 100%;
+border: 1px solid #dfe3e8;
+border-radius: 11px;
+outline: none;
+background: #fff;
+color: #101828;
+font-family: inherit;
+font-size: 13px;
+transition:
+border-color 0.2s ease,
+box-shadow 0.2s ease,
+background 0.2s ease;
+}
+
+.field input,
+.field select {
+height: 46px;
+padding: 0 13px;
+}
+
+.field textarea {
+min-height: 150px;
+padding: 12px 13px;
+resize: vertical;
+line-height: 1.6;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+color: #98a2b3;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+border-color: #7ba5f8;
+background: #fff;
+box-shadow:
+0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+.contact-submit {
+min-height: 50px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 9px;
+margin-top: 3px;
+padding: 0 22px;
+border: 0;
+border-radius: 11px;
+color: #fff;
+background: linear-gradient(
+135deg,
+#2563eb,
+#4f46e5
+);
+font-family: inherit;
+font-size: 13px;
+font-weight: 800;
+cursor: pointer;
+box-shadow:
+0 10px 24px rgba(37, 99, 235, 0.2);
+transition:
+transform 0.25s ease,
+box-shadow 0.25s ease,
+opacity 0.25s ease;
+}
+
+.contact-submit:hover:not(:disabled) {
+transform: translateY(-2px);
+box-shadow:
+0 15px 30px rgba(37, 99, 235, 0.28);
+}
+
+.contact-submit:disabled {
+cursor: not-allowed;
+opacity: 0.7;
+}
+
+.form-note {
+margin: -5px 0 0;
+color: #98a2b3;
+text-align: center;
+font-size: 10px;
+line-height: 1.5;
+}
+
+.honeypot {
+position: absolute !important;
+left: -9999px !important;
+width: 1px !important;
+height: 1px !important;
+opacity: 0 !important;
+}
+
+/* =========================
+MAP
+========================= */
+
+.contact-location-section {
+padding-top: 30px;
+}
+
+.location-heading {
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+gap: 25px;
+margin-bottom: 24px;
+}
+
+.location-heading h2 {
+margin: 10px 0 7px;
+color: #101828;
+font-family: Manrope, sans-serif;
+font-size: 28px;
+letter-spacing: -0.5px;
+}
+
+.location-heading p {
+margin: 0;
+color: #667085;
+font-size: 13px;
+}
+
+.map-button {
+display: inline-flex;
+align-items: center;
+gap: 7px;
+padding: 11px 14px;
+border: 1px solid #dfe3e8;
+border-radius: 10px;
+color: #344054;
+background: #fff;
+text-decoration: none;
+white-space: nowrap;
+font-size: 12px;
+font-weight: 750;
+transition:
+border-color 0.2s ease,
+transform 0.2s ease,
+box-shadow 0.2s ease;
+}
+
+.map-button:hover {
+border-color: #b9c7df;
+transform: translateY(-2px);
+box-shadow:
+0 8px 20px rgba(15, 23, 42, 0.06);
+}
+
+.map-wrapper {
+position: relative;
+height: 390px;
+overflow: hidden;
+border: 1px solid #e4e7ec;
+border-radius: 22px;
+background: #eef2f6;
+box-shadow:
+0 15px 40px rgba(15, 23, 42, 0.06);
+}
+
+.map-wrapper iframe {
+width: 100%;
+height: 100%;
+display: block;
+border: 0;
+filter: saturate(0.9);
+}
+
+.map-overlay-card {
+position: absolute;
+left: 20px;
+bottom: 20px;
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 11px 14px;
+border: 1px solid rgba(255,255,255,0.7);
+border-radius: 13px;
+background: rgba(255,255,255,0.94);
+backdrop-filter: blur(12px);
+box-shadow:
+0 12px 30px rgba(15, 23, 42, 0.14);
+}
+
+.map-overlay-card > span {
+width: 34px;
+height: 34px;
+display: grid;
+place-items: center;
+color: #2563eb;
+border-radius: 9px;
+background: #eff5ff;
+}
+
+.map-overlay-card strong {
+display: block;
+color: #101828;
+font-size: 12px;
+}
+
+.map-overlay-card small {
+display: block;
+margin-top: 2px;
+color: #667085;
+font-size: 10px;
+}
+
+/* =========================
+FINAL CTA
+========================= */
+
+.contact-final-section {
+padding-top: 55px;
+padding-bottom: 100px;
+}
+
+.contact-final-card {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+overflow: hidden;
+padding: 42px;
+border-radius: 25px;
+color: #fff;
+background:
+radial-gradient(
+circle at 90% 20%,
+rgba(255,255,255,0.12),
+transparent 25%
+),
+linear-gradient(
+135deg,
+#101828,
+#172554
+);
+box-shadow:
+0 25px 60px rgba(15, 23, 42, 0.18);
+}
+
+.contact-final-card .eyebrow {
+color: #93c5fd;
+}
+
+.contact-final-card h2 {
+margin: 12px 0 10px;
+font-family: Manrope, sans-serif;
+font-size: clamp(27px, 4vw, 42px);
+line-height: 1.08;
+letter-spacing: -1.2px;
+}
+
+.contact-final-card p {
+margin: 0;
+color: #aebbd0;
+font-size: 13px;
+}
+
+.contact-final-actions {
+display: flex;
+gap: 10px;
+flex-shrink: 0;
+}
+
+.final-call,
+.final-whatsapp {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 7px;
+min-height: 45px;
+padding: 0 16px;
+border-radius: 10px;
+text-decoration: none;
+font-size: 12px;
+font-weight: 750;
+transition:
+transform 0.25s ease,
+background 0.25s ease;
+}
+
+.final-call {
+color: #101828;
+background: #fff;
+}
+
+.final-whatsapp {
+color: #fff;
+border: 1px solid rgba(255,255,255,0.2);
+background: rgba(255,255,255,0.08);
+}
+
+.final-call:hover,
+.final-whatsapp:hover {
+transform: translateY(-2px);
+}
+
+/* =========================
+LOADING
+========================= */
+
+.spin {
+animation: contact-spin 0.9s linear infinite;
+}
+
+@keyframes contact-spin {
+to {
+transform: rotate(360deg);
+}
+}
+
+/* =========================
+RESPONSIVE
+========================= */
+
+@media (max-width: 950px) {
+.contact-grid {
+grid-template-columns: 1fr;
+}
+
+.contact-sidebar {
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: start;
+}
+
+.contact-mini-grid {
+grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 760px) {
+.contact-hero {
+padding: 80px 0 65px;
+}
+
+.contact-main {
+padding-top: 55px;
+}
+
+.contact-sidebar {
+display: flex;
+}
+
+.contact-form-card,
+.contact-info-card {
+padding: 24px;
+}
+
+.form-row {
+grid-template-columns: 1fr;
+}
+
+.location-heading {
+align-items: flex-start;
+flex-direction: column;
+}
+
+.map-button {
+width: 100%;
+justify-content: center;
+}
+
+.map-wrapper {
+height: 330px;
+}
+
+.contact-final-card {
+align-items: flex-start;
+flex-direction: column;
+padding: 30px 24px;
+}
+
+.contact-final-actions {
+width: 100%;
+}
+
+.final-call,
+.final-whatsapp {
+flex: 1;
+}
+}
+
+@media (max-width: 520px) {
+.contact-hero {
+padding: 65px 0 50px;
+}
+
+.contact-hero-points {
+flex-direction: column;
+gap: 10px;
+}
+
+.contact-mini-grid {
+grid-template-columns: 1fr 1fr;
+}
+
+.contact-mini-card {
+padding: 15px;
+}
+
+.contact-info-card {
+padding: 20px;
+}
+
+.contact-form-card {
+padding: 20px;
+border-radius: 18px;
+}
+
+.form-heading h2 {
+font-size: 22px;
+}
+
+.map-wrapper {
+height: 280px;
+border-radius: 17px;
+}
+
+.map-overlay-card {
+left: 12px;
+bottom: 12px;
+}
+
+.contact-final-actions {
+flex-direction: column;
+width: 100%;
+}
+}
+
+@media (prefers-reduced-motion: reduce) {
+.contact-info-item,
+.contact-mini-card,
+.contact-submit,
+.map-button,
+.final-call,
+.final-whatsapp {
+transition: none !important;
+}
+
+.spin {
+animation: none !important;
+}
+}

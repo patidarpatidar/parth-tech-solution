@@ -654,5 +654,3 @@ The source code, design, content, images, branding, and other project assets sho
 **Responsive:** Yes
 
 **Portfolio Images:** Yes
-#   p a r t h - t e c h - s o l u t i o n  
- 
