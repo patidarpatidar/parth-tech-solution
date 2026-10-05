@@ -11,6 +11,12 @@ export const projects = [
     "/assets/krishi-mitra.png",
   ],
   [
+    "The Royal Table",
+    "A modern restaurant website with digital menu, QR table ordering, cart, WhatsApp ordering and table booking.",
+    "/assets/royal-table.png",
+  ],
+
+  [
     "24 Betting Website",
     "A responsive sports betting platform with sports, events and betting-related interfaces.",
     "/assets/24bet.png",

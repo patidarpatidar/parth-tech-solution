@@ -47,54 +47,53 @@ const projectCategories = [
 ========================================================= */
 
 const projectDetails = [
-
   /* =======================================================
      01 — PATIDAR DIGITAL WORLD
   ======================================================= */
 
- {
-  category: "Web Application",
-  industry: "Business Technology",
+  {
+    category: "Web Application",
+    industry: "Business Technology",
     featured: false,
-  number: "01",
+    number: "01",
 
-  image: "/assets/patidar-digital-world.png",
+    image: "/assets/patidar-digital-world.png",
 
-  imageAlt: "Patidar Digital World website",
+    imageAlt: "Patidar Digital World website",
 
-  title: "Patidar Digital World",
+    title: "Patidar Digital World",
 
-  description:
-    "A business-focused digital platform designed to manage users, workflows, data and day-to-day operations from a centralized system.",
+    description:
+      "A business-focused digital platform designed to manage users, workflows, data and day-to-day operations from a centralized system.",
 
-  problem:
-    "Businesses often manage different workflows across spreadsheets, emails and disconnected tools.",
+    problem:
+      "Businesses often manage different workflows across spreadsheets, emails and disconnected tools.",
 
-  solution:
-    "A centralized web platform brings important workflows, users, permissions and business data into one place.",
+    solution:
+      "A centralized web platform brings important workflows, users, permissions and business data into one place.",
 
-  features: [
-    "Role-based access",
-    "Admin dashboard",
-    "Business workflows",
-    "REST API integration",
-    "Responsive interface",
-    "Data management",
-  ],
+    features: [
+      "Role-based access",
+      "Admin dashboard",
+      "Business workflows",
+      "REST API integration",
+      "Responsive interface",
+      "Data management",
+    ],
 
-  technologies: [
-    "React.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-  ],
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
 
-  stats: [
-    ["100+", "Components"],
-    ["100+", "APIs"],
-    ["20+", "Roles"],
-  ],
-},
+    stats: [
+      ["100+", "Components"],
+      ["100+", "APIs"],
+      ["20+", "Roles"],
+    ],
+  },
 
 
   /* =======================================================
@@ -149,65 +148,127 @@ const projectDetails = [
     ],
   },
 
-/* =======================================================
-   03 — 24 BETTING WEBSITE
-======================================================= */
 
-{
-  category: "Web Platform",
-  industry: "Sports & Gaming",
-  featured: false,
-  number: "03",
+  /* =======================================================
+     03 — THE ROYAL TABLE
+  ======================================================= */
 
-  title: "24 Betting Website",
+  {
+    category: "Restaurant Website",
+    industry: "Hospitality & Food",
+    featured: true,
+    number: "03",
 
-  description:
-    "A modern sports betting platform designed to provide users with a fast, responsive and intuitive experience for exploring sports, markets and betting-related information.",
+    title: "The Royal Table",
 
-  problem:
-    "Sports betting platforms need to handle large amounts of real-time information while keeping the user experience fast, simple and easy to navigate across devices.",
+    description:
+      "A modern restaurant website with a digital menu, QR-based table ordering, shopping cart, WhatsApp ordering and table booking experience.",
 
-  solution:
-    "A responsive web platform with structured sports and betting interfaces, user-focused navigation, scalable backend architecture and API-driven data integration.",
+    problem:
+      "Traditional restaurant menus and manual ordering can make it difficult for customers to quickly explore dishes and place orders.",
 
-  features: [
-    "Sports and event listings",
-    "Betting market interface",
-    "User authentication",
-    "Responsive betting interface",
-    "Real-time API integration",
-    "User account management",
-  ],
+    solution:
+      "A mobile-first digital dining experience allows customers to scan a table QR code, browse the menu, add dishes to a cart and send their order directly through WhatsApp.",
 
-  technologies: [
-    "React.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "REST APIs",
-  ],
+    features: [
+      "Digital restaurant menu",
+      "QR table ordering",
+      "Menu categories",
+      "Food search and filtering",
+      "Veg / Non-Veg filtering",
+      "Food detail pages",
+      "Shopping cart",
+      "Quantity management",
+      "WhatsApp ordering",
+      "Table number support",
+      "Table booking",
+      "Responsive mobile design",
+    ],
 
-  image: "/assets/24bet.png",
+    technologies: [
+      "Next.js",
+      "React.js",
+      "JavaScript",
+      "CSS",
+      "Context API",
+      "LocalStorage",
+      "QR Code",
+      "WhatsApp Integration",
+    ],
 
-  liveUrl: "#",
+    image: "/assets/royal-table.png",
 
-  stats: [
-    ["Responsive", "Web Platform"],
-    ["Real-time", "API Integration"],
-    ["Multi-device", "Experience"],
-  ],
-},
+    imageAlt: "The Royal Table restaurant website",
+
+    liveUrl: "https://royal-table-restaurant.vercel.app/",
+
+    stats: [
+      ["QR", "Digital Menu"],
+      ["WhatsApp", "Ordering"],
+      ["Responsive", "Experience"],
+    ],
+  },
 
 
   /* =======================================================
-     04 — KRISHI MITRA
+     04 — 24 BETTING WEBSITE
+  ======================================================= */
+
+  {
+    category: "Web Platform",
+    industry: "Sports & Gaming",
+    featured: false,
+    number: "04",
+
+    title: "24 Betting Website",
+
+    description:
+      "A modern sports betting platform designed to provide users with a fast, responsive and intuitive experience for exploring sports, markets and betting-related information.",
+
+    problem:
+      "Sports betting platforms need to handle large amounts of real-time information while keeping the user experience fast, simple and easy to navigate across devices.",
+
+    solution:
+      "A responsive web platform with structured sports and betting interfaces, user-focused navigation, scalable backend architecture and API-driven data integration.",
+
+    features: [
+      "Sports and event listings",
+      "Betting market interface",
+      "User authentication",
+      "Responsive betting interface",
+      "Real-time API integration",
+      "User account management",
+    ],
+
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+    ],
+
+    image: "/assets/24bet.png",
+
+    liveUrl: "#",
+
+    stats: [
+      ["Responsive", "Web Platform"],
+      ["Real-time", "API Integration"],
+      ["Multi-device", "Experience"],
+    ],
+  },
+
+
+  /* =======================================================
+     05 — KRISHI MITRA
   ======================================================= */
 
   {
     category: "Agriculture",
     industry: "AgriTech",
     featured: true,
-    number: "04",
+    number: "05",
 
     title: "Krishi Mitra MP",
 
@@ -249,14 +310,14 @@ const projectDetails = [
 
 
   /* =======================================================
-     05 — REAL TIME COLLABORATION
+     06 — REAL TIME COLLABORATION
   ======================================================= */
 
   {
     category: "Productivity",
     industry: "Collaboration",
     featured: false,
-    number: "05",
+    number: "06",
 
     title: "Real-Time Collaboration Platform",
 
@@ -298,14 +359,14 @@ const projectDetails = [
 
 
   /* =======================================================
-     06 — CRM
+     07 — CRM
   ======================================================= */
 
   {
     category: "Business",
     industry: "CRM / Management",
     featured: false,
-    number: "06",
+    number: "07",
 
     title: "CRM & Business Management Platform",
 
@@ -347,14 +408,14 @@ const projectDetails = [
 
 
   /* =======================================================
-     07 — IDENTITY ADMIN
+     08 — IDENTITY ADMIN
   ======================================================= */
 
   {
     category: "Web Application",
     industry: "Identity & Access",
     featured: false,
-    number: "07",
+    number: "08",
 
     title: "Identity Administration Platform",
 
@@ -396,14 +457,14 @@ const projectDetails = [
 
 
   /* =======================================================
-     08 — RESUME BUILDER
+     09 — RESUME BUILDER
   ======================================================= */
 
   {
     category: "Productivity",
     industry: "Resume & Career",
     featured: false,
-    number: "08",
+    number: "09",
 
     title: "Resume Builder",
 
@@ -443,7 +504,6 @@ const projectDetails = [
     ],
   },
 ];
-
 
 /* =========================================================
    PORTFOLIO PROCESS
@@ -747,7 +807,7 @@ export default function Portfolio() {
             </div>
 
             <div className="featured-browser-address">
-              krishimitra.com
+              royaltablerestaurant.com
             </div>
 
           </div>
